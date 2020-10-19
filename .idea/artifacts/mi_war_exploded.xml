@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mi:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mi_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mi" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.21" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: top.jfunc.common:converter:1.8.0" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.43" />
+          <element id="library" level="project" name="Maven: top.jfunc.json:json-common:1.8.0" />
+          <element id="library" level="project" name="Maven: top.jfunc.json:json-fastjson:1.8.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="mi/web/Web" />
+    </root>
+  </artifact>
+</component>
